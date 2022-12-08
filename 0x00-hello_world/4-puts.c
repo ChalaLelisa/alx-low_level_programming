@@ -2,10 +2,9 @@
 
 
 /**
- *
  * main -Entry point
  *
- * Return: 0
+ * Return: Always o (Success)
  */
 
 int main(void)
