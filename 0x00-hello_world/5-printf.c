@@ -1,11 +1,10 @@
-#include<stdio.h>
-
+#include <stdio.h>
 /**
- * main: - Entry point
+ * main - print a line of using printf
  *
- * Return: 0
- */
-int main (void)
+ * return: 0
+*/
+void main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 
