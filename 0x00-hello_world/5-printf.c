@@ -1,10 +1,13 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
+
 /**
- * main - print a line of using printf
- *
- * return: 0
+*main - Entry in to main
+*printf a line
+*Return: 0 (Success)
 */
-void main(void)
+int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 
