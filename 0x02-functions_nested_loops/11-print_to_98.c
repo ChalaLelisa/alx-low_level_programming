@@ -1,5 +1,5 @@
-include "main.h"
-include < stdio.h >
+#include "main.h"
+#include < stdio.h >
 
 /**
  * print_to_98 - to print numbers from input up to 98
@@ -17,8 +17,8 @@ void print_to_98(int n)
 	else
 	{
 		while (i < 98)
-			printf("%d ", i++");
+			printf("%d\n", i++");
 
-		printf("%d\n, i);
+		printf("%d\n", i);
 	}
 }
