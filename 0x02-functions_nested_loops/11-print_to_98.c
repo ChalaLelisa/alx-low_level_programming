@@ -1,4 +1,4 @@
-include "main"
+include "main.h"
 include < stdio.h >
 
 /**
@@ -17,7 +17,7 @@ void print_to_98(int n)
 	else
 	{
 		while (i < 98)
-			printf("%d, i++");
+			printf("%d ", i++");
 
 		printf("%d\n, i);
 	}
