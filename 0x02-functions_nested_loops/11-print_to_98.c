@@ -1,5 +1,5 @@
 #include "main.h"
-#include < stdio.h >
+#include <stdio.h>
 
 /**
  * print_to_98 - to print numbers from input up to 98
