@@ -1,5 +1,6 @@
 /**
-*print_most_numbers - function that prints integers to 9 but not 2&4
+*print_most_numbers - function that
+*		prints integers to 9 but not 2&4
 *
 *Return: void
 */
