@@ -4,15 +4,16 @@
 #include <math.h>
 
 /**
- * main - A program that generates random valid passwords for the
- *        program 101-crackme.
- *
+ * main - A program that generate a randon password
+ * randomPasswordGeneration - random password generation
+ * 
+ * @N: number of char
  * Return: Always 0.
  */
-int main(void)
+void randomPasswordGeneration(int N)
 {
 	int i = 0;
-	int randoom_num = 0;
+	int random_num = 0;
 
 	srand((unsigned int)(time(NULL)));
 	char numbers[] = "0123456789";
@@ -30,7 +31,7 @@ int main(void)
 			random_num = rand() % 4;
 			printf("%c", password[i]);
 		}
-		else if (randomizer == 2)
+		else if (random_num == 2)
 		{
 			password[i] = symbols[rand() % 8];
 			random_num = rand() % 4;
@@ -39,7 +40,7 @@ int main(void)
 		else if (random_num == 3)
 		{
 			password[i] = LETTER[rand() % 26];
-			randomizer = rand() % 4;
+			random_num = rand() % 4;
 			printf("%c", password[i]);
 		}
 		else
