@@ -11,14 +11,14 @@
 char *_strdup(char *str)
 {
 	char *cpy;
-	int index, len;
+	int index, len = 0;
 
 	if (str == NULL)
 		return (NULL);
 
 	while (str[len] != '\0')
 		len++;
-	cpy = (char *)malloc((sizeof(char) * len) + 1);
+	cpy = malloc(sizeof(char) * (len + 1));
 
 	if (cpy == NULL)
 		return (NULL);
@@ -32,4 +32,3 @@ char *_strdup(char *str)
 	return (cpy);
 
 }
-
